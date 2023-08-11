@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Desafio - Comparação lógica</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<!-- 
+DESAFIO - FAZER PROGRAMA DE COMPARAÇÃO LÓGICA
+
+    > MAIOR QUE 
+    < MENOR QUE
+    >= MAIOR OU IGUAL
+    <= MENOR OU IGUAL
+    != DIFERENTE
+    == IGUALDADE 
+-->
+
+<body>
+    <h1>Desafio Comparação Lógica</h1>
+    <h3>Autor: Thales Fossalussa</h3>
+    
+    <hr/>
+
+    <input type="number" id="txt-n1">
+    <select name="comparacao" id="comparacao">
+        <option value=">">></option>
+        <option value="<"><</option>
+        <option value=">=">>=</option>
+        <option value="<="><=</option>
+        <option value="!=">!=</option>
+        <option value="==">==</option>
+    </select>
+    <input type="number" id="txt-n2">
+    <button onclick="comparar()">Comparar</button>
+
+    <p>Resultado: <span id="resultado"></span></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
